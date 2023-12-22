@@ -1,0 +1,274 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    text-decoration: none; 
+    /* outline: black; */
+} 
+    
+:focus,:active{outline: none;} 
+a:focus,a:active{outline: none;} 
+
+nav,footer,header,aside{display: block;} 
+
+:root{ 
+--boss: rgb(160, 160, 160); 
+--colors: rgb(210, 198, 198); 
+}  
+
+input,button,textarea{font-family:inherit;} 
+
+input::-ms-clear{display: none;} 
+button{cursor: pointer;} 
+button::-moz-focus-inner {padding:0;border:0;} 
+a, a:visited{text-decoration: none;} 
+a:hover{text-decoration: none;} 
+ul li{list-style: none;}
+ol li{list-style: none;}  
+img{vertical-align: top;} 
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+
+html{ 
+scroll-behavior: smooth; 
+overflow-x: hidden;
+}
+.head__bgraund {
+    width: 100%;
+    background: rgb(18, 18, 18);
+    /* overflow-x: hidden; */
+    transition: 0.5s;
+}
+/* .head__bgraund.new {
+    position: fixed;
+    z-index: 3;
+} */
+.head {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head__img {
+    max-width: 140px;
+}
+.head__nav {
+    width: 740px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text__nav {
+    color: white;
+    font-size: 24px;
+    transition: 0.6s;
+}
+.text__nav:hover {
+    transform: scale(1.2);
+}
+.head__btn {
+    padding: 20px;
+    color: wheat;
+    font-size: 20px;
+    background: linear-gradient(black, rgb(161, 145, 55));
+    border-radius: 20px;
+    transition: 0.6s;
+}
+.head__a {
+    transition: 0.6s;
+}
+.head__a:hover {
+    transform: scale(1.1);
+}
+.block1__title {
+    color: rgb(161, 145, 55);
+    font-family: Rubik Bubbles;
+    font-size: 40px;
+    text-align: center;
+    background-image: url(../img/Spider\ bank.png);
+}
+.Cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 30px; */
+    background-image: url(../img/Spider\ bank.png);
+    background-size: cover;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.block2-cardinside {
+    max-width: 560px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.inside-block1 {
+    display: flex;
+    justify-content: space-between;
+}
+.block2__card-img {
+    width: 85px;
+    border-radius: 60px;
+    margin-top: 10px;
+}
+.block2__card-img2 {
+    width: 80px;
+}
+.inside-block2 {
+    display: flex;
+    justify-content: space-between;
+}
+.block2__card-img3 {
+    width: 55px;
+    margin-top: 5px;
+    margin-left: 10px;
+    transform: rotate(-90deg);
+    box-shadow: 0 0 200px white;
+}
+.block2__card-img4 {
+    width: 60px;
+}
+.inside-block3 {
+    display: flex;
+    justify-content: space-around;
+}
+.block2__card-text {
+    color: rgb(158, 23, 2);
+    font-size: 50px;
+    text-shadow: 0 0 20px #000;
+    z-index: 6;
+    font-family: Fredoka;
+}
+.block2__card-text1 {
+    color: rgb(158, 23, 2);
+    font-size: 40px;
+    text-shadow: 0 0 20px #000;
+    z-index: 6;
+    font-family: Fredoka;
+    margin-left: 285px;
+}
+.block2__card-text2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow: 0 0 20px #ffffff;
+    z-index: 6;
+    font-family: Fredoka;
+}
+.card1 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/video_game-marvel_s_spider_man_2-miles_morales-spider_man-1042590.jpeg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover, .card9:hover, .card10:hover, .card11:hover {
+    transform: rotate(-10deg);
+}
+.card2 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/Человек\ паук\ 2\ обом.jpg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card3 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/img2.akspic.ru-chudo_chelovek_pauk_majl_morales-chelovek_pauk-majlz_morales-piter_parker-playstation_5-3840x2160.jpg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card4 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/video_game-spider_man_ps4-aunt_may_parker-harry_osborn-mary_jane_watson-peter_parker-spider_man-423622.jpeg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card5 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/125295-geroj-fikciya-chelovek_pauk-zheleznyj_chelovek-videoigra-3840x2160.jpg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card6 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/marvels-spiderman-2-hd-wallpaper-1920x1080-uhdpaper.com-689.1_b.jpg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card7 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/marvels-spider-man-2-be-greater-together-4k-4d-1920x1080.jpg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card8 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/marvels-spider-man-miles-morales-5120x2880-14048.png);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card9 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/marvels-spider-man-miles-morales-3840x2158-3110.jpg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card10 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/venom-suit-3840x2160-17587.jpeg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.card11 {
+    width: 600px;
+    border: 3px solid #000;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../img/marvels-spider-man-2-4k-wallpaper-3840x2160-15590.jpeg);
+    background-size: cover;
+    margin-top: 20vh;
+    transition: 1s;
+}
+.eleventh-card {
+    padding-bottom: 30px;
+}

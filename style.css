@@ -84,7 +84,7 @@ overflow-x: hidden;
 .main__block1-bgraund {
     width: 100%;
     height: 100vh;
-    background-image: url(../img//84b30778b2bbd133304a3a93d99bff47.jpg);
+    background-image: url(./img/84b30778b2bbd133304a3a93d99bff47.jpg);
     background-size: cover;
     border: 1px solid #000;
 }
@@ -113,7 +113,7 @@ overflow-x: hidden;
 .main__block2 {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/marvels-spider-man-miles-morales-3840x2158-3110.jpg);
+    background-image: url(./img/marvels-spider-man-miles-morales-3840x2158-3110.jpg);
     background-size: cover;
     margin: 0 auto;
     display: flex;
@@ -124,13 +124,13 @@ overflow-x: hidden;
     border: 3px solid #000;
     height: 350px;
     border-radius: 20px;
-    background-image: url(../img/video_game-marvel_s_spider_man_2-miles_morales-spider_man-1042590.jpeg);
+    background-image: url(./img/video_game-spider_man_ps4-aunt_may_parker-harry_osborn-mary_jane_watson-peter_parker-spider_man-423622.jpeg);
     background-size: cover;
     margin-top: 20vh;
     transition: 1s;
 }
 .main__block2-card.designs1 {
-    background-image: url(../img/Человек\ паук\ 2\ обом.jpg);
+    background-image: url(./img/Человек\ паук\ 2\ обом.jpg);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -138,7 +138,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs2 {
-    background-image: url(../img/img2.akspic.ru-chudo_chelovek_pauk_majl_morales-chelovek_pauk-majlz_morales-piter_parker-playstation_5-3840x2160.jpg);
+    background-image: url(./img/img2.akspic.ru-chudo_chelovek_pauk_majl_morales-chelovek_pauk-majlz_morales-piter_parker-playstation_5-3840x2160.jpg);
     background-position: center;
     background-size: cover;
     width: 600px;
@@ -147,7 +147,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs3 {
-    background-image: url(../img/video_game-spider_man_ps4-aunt_may_parker-harry_osborn-mary_jane_watson-peter_parker-spider_man-423622.jpeg);
+    background-image: url(./img/video_game-spider_man_ps4-aunt_may_parker-harry_osborn-mary_jane_watson-peter_parker-spider_man-423622.jpeg);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -155,7 +155,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs4 {
-    background-image: url(../img/125295-geroj-fikciya-chelovek_pauk-zheleznyj_chelovek-videoigra-3840x2160.jpg);
+    background-image: url(./img/125295-geroj-fikciya-chelovek_pauk-zheleznyj_chelovek-videoigra-3840x2160.jpg);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -163,7 +163,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs5 {
-    background-image: url(../img/marvels-spiderman-2-hd-wallpaper-1920x1080-uhdpaper.com-689.1_b.jpg);
+    background-image: url(./img/marvels-spiderman-2-hd-wallpaper-1920x1080-uhdpaper.com-689.1_b.jpg);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -171,7 +171,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs6 {
-    background-image: url(../img/marvels-spider-man-2-be-greater-together-4k-4d-1920x1080.jpg);
+    background-image: url(./img/marvels-spider-man-2-be-greater-together-4k-4d-1920x1080.jpg);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -179,7 +179,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs7 {
-    background-image: url(../img/marvels-spider-man-miles-morales-5120x2880-14048.png);
+    background-image: url(./img/marvels-spider-man-miles-morales-5120x2880-14048.png);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -187,7 +187,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs8 {
-    background-image: url(../img/marvels-spider-man-miles-morales-3840x2158-3110.jpg);
+    background-image: url(./img/marvels-spider-man-miles-morales-3840x2158-3110.jpg);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -195,7 +195,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs9 {
-    background-image: url(../img/venom-suit-3840x2160-17587.jpeg);
+    background-image: url(./img/venom-suit-3840x2160-17587.jpeg);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -203,7 +203,7 @@ overflow-x: hidden;
     border-radius: 20px;
 }
 .main__block2-card.designs10 {
-    background-image: url(../img/marvels-spider-man-2-4k-wallpaper-3840x2160-15590.jpeg);
+    background-image: url(./img/marvels-spider-man-2-4k-wallpaper-3840x2160-15590.jpeg);
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
@@ -302,7 +302,7 @@ overflow-x: hidden;
     gap: 15px;
     transition: 1s;
     top: 155px;
-    background-image: url(../img/marvels-spiderman-2-hd-wallpaper-1920x1080-uhdpaper.com-689.1_b.jpg);
+    background-image: url(./img/marvels-spiderman-2-hd-wallpaper-1920x1080-uhdpaper.com-689.1_b.jpg);
     background-size: cover;
     align-items: center;
     border-radius: 20px;

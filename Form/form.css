@@ -38,6 +38,7 @@ overflow-x: hidden;
 }
 .form-title {
     text-align: center;
+    font-size: 35px;
 }
 .block-form {
     width: 500px;
@@ -46,6 +47,10 @@ overflow-x: hidden;
     /* align-items: center; */
     margin: 0 auto;
     border: 1px solid #000;
+    margin-top: 150px;
+    padding: 15px;
+    gap: 25px;
+    border-radius: 10px;
 }
 .box-one {
     display: flex;
@@ -55,19 +60,48 @@ overflow-x: hidden;
     border-bottom: 1px solid #000;
 }
 .form-lable {
+    font-size: 18px;
 }
 .name-input {
+    width: 100%;
 }
 .password-input {
+    width: 100%;
 }
 .box-stroke {
     border-bottom: 1px solid #000;
 }
 .email-input {
+    width: 100%;
 }
 .phone-input {
+    width: 100%;
 }
 .check-input {
 }
 .form-button {
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.modal-name {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 1s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-name.name {
+    opacity: 1;
+}
+.name-text {
+    font-size: 20px;
+    color: red;
+    text-align: center;
 }

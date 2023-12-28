@@ -125,6 +125,7 @@ overflow-x: hidden;
     background-size: cover;
     margin: 0 auto;
     display: flex;
+    /* gap: 120px; */
     justify-content: space-around;
 }
 .main__block2-card {
@@ -329,6 +330,66 @@ overflow-x: hidden;
     transform: scale(1);
     /* left: 0; */
 }
+.main__block3-bgraund {
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url(./img/pexels-photo-326311.jpeg);
+    background-size: cover;
+}
+.main__block3 {
+}
+.main__block3-title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Fredoka;
+}
+.block3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+.company-ATB {
+    width: 200px;
+    height: 200px;
+    background-image: url(./img/atb_logo_akciya.png);
+    background-size: cover;
+}
+.company-POCT {
+    width: 500px;
+    height: 250px;
+    background-image: url(./img/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+.company-Cilpo {
+    width: 250px;
+    height: 200px;
+    background-image: url(./img/silpo_fb_share.png);
+    background-size: cover;
+}
+.company-Avrora {
+    width: 200px;
+    height: 200px;
+    background-image: url(./img/unnamed.png);
+    background-size: cover;
+}
+.company-Posad {
+    width: 530px;
+    height: 260px;
+    background-image: url(./img/c1be37d333e178488a86d1c5b27816c8.png);
+    background-size: cover;
+}
+.company-Ps {
+    width: 500px;
+    height: 250px;
+    background-image: url(./img/ps.png);
+    background-size: cover;
+    background-position: center;
+}
 /* Стилі для великих екранів (дисплей максимум 1199рх) */
 @media (max-width: 1199px) { ... }
 
@@ -342,17 +403,18 @@ overflow-x: hidden;
             justify-content: space-between;
             padding: 0 10px;
         }
-        .main__block2-card {
-        }
         .main__block2 {
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
+            /* gap: 0; */
         }
     }
 
 /* Стилі для малих екранів (дисплей максимум 767рх) */
-    @media (max-width: 767px) {}
+    @media (max-width: 767px) {
+    }
+
     @media (max-width: 670px) {
         .main__block2-card {
             max-width: 470px;

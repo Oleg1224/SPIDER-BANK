@@ -329,3 +329,78 @@ overflow-x: hidden;
     transform: scale(1);
     /* left: 0; */
 }
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) { ... }
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {
+        .head__nav {
+            display: none;
+        }
+        .head {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+        .main__block2-card {
+        }
+        .main__block2 {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+    }
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) {}
+    @media (max-width: 670px) {
+        .main__block2-card {
+            max-width: 470px;
+            background-position: center;
+        }
+    }
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) {
+        .main__block2-card {
+            max-width: 380px;
+            background-position: center;
+        }
+        .block2__card-text {
+            font-size: 33px;
+        }
+        .block2__card-text2 {
+            font-size: 28px;
+        }
+        .block2__card-text1 {
+            font-size: 33px;
+            margin-left: 185px;
+        }
+        .block2__card-img, .block2__card-img2 {
+            width: 70px;
+        }
+        .block2__card-img3, .block2__card-img4 {
+            width: 50px;
+        }
+}
+    @media (max-width: 430px) {
+        .main__block2-card {
+            max-width: 300px;
+            background-position: center;
+        }
+        .block2__card-text {
+            font-size: 28px;
+        }
+        .block2__card-text2 {
+            font-size: 22px;
+        }
+        .block2__card-text1 {
+            font-size: 28px;
+            margin-left: 143px;
+        }
+        .block2__card-img, .block2__card-img2 {
+            width: 50px;
+        }
+        .block2__card-img3, .block2__card-img4 {
+            width: 40px;
+        }
+    }

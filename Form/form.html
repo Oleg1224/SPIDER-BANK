@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="form">
@@ -37,7 +40,7 @@
             </div>
             <div class="box-stroke">
                 <label for="" class="form-lable">Email</label>
-                <input type="email" class="email-input">
+                <input type="email" class="email-input" placeholder="example@gmail.com">
             </div>
             <div class="modal-email">
                 <h2 class="name-text">Your email does not include @ and .</h2>
@@ -56,8 +59,11 @@
                 <h2 class="name-text">Not the full number!</h2>
             </div>
             <div class="box-stroke">
-                <label for="" class="form-lable">I agree</label>
+                <label for="" class="form-lable">I agree to the privacy policy</label>
                 <input type="checkbox" class="check-input">
+            </div>
+            <div class="modal-check">
+                <h2 class="name-text">You have not confirmed the privacy policy!</h2>
             </div>
             <button type="button" class="form-button">Login</button>
         </div>

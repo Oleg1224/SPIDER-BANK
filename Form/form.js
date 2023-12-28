@@ -114,7 +114,16 @@ formBtn.addEventListener('click', function() {
         emailInput.style.color = 'red'
     }
     else if (!checkInput.checked) {
-        alert('Вы не agree')
+        let modalCheck = document.querySelector('.modal-check')
+        modalCheck.classList.add('check')
+        setTimeout(function() {
+            modalCheck.classList.remove('check')
+            formLable.style.color = 'black'
+            checkInput.style.color = 'black'
+        }, 1500)
+        let formLable = document.querySelectorAll('.form-lable')
+        formLable.style.color = 'red'
+        checkInput.style.color = 'red'
     }
     else if (true) {
         window.location.href='../Created card/created-card.html'

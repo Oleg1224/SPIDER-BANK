@@ -75,10 +75,18 @@ overflow-x: hidden;
     border-radius: 20px;
     transition: 0.6s;
 }
-.head__a {
+.head__btn:hover {
+    transform: scale(1.1);
+}
+.btn {
+    padding: 20px;
+    color: wheat;
+    font-size: 20px;
+    background: linear-gradient(black, rgb(161, 145, 55));
+    border-radius: 20px;
     transition: 0.6s;
 }
-.head__a:hover {
+.btn:hover {
     transform: scale(1.1);
 }
 .main__block1-bgraund {

@@ -100,6 +100,118 @@ overflow-x: hidden;
 .modal-name.name {
     opacity: 1;
 }
+.modal-name2 {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-name2.name2 {
+    opacity: 1;
+}
+.modal-name3 {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-name3.name3 {
+    opacity: 1;
+}
+.modal-password {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-password.password {
+    opacity: 1;
+}
+.modal-password2 {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-password2.password2 {
+    opacity: 1;
+}
+.modal-email {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-email.email {
+    opacity: 1;
+}
+.modal-phone {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-phone.phone {
+    opacity: 1;
+}
+.modal-phone2 {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-phone2.phone2 {
+    opacity: 1;
+}
+.modal-phone3 {
+    opacity: 0;
+    width: 200px;
+    border: 1px solid #907c7c;
+    position: absolute;
+    top: 20px;
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 10px;
+    right: 20px;
+}
+.modal-phone3.phone3 {
+    opacity: 1;
+}
 .name-text {
     font-size: 20px;
     color: red;

@@ -1,12 +1,12 @@
-let head = document.querySelector('.head__bgraund');
-window.addEventListener('scroll', function() {
-    if (this.scrollY > 10 ) {
-        head.classList.add('new')
-    }
-    else {
-        head.classList.remove('new')
-    }
-})
+// let head = document.querySelector('.head__bgraund');
+// window.addEventListener('scroll', function() {
+//     if (this.scrollY > 10 ) {
+//         head.classList.add('new')
+//     }
+//     else {
+//         head.classList.remove('new')
+//     }
+// })
 let cardDesigns = document.querySelector('.card-designs');
 let modal1 = document.querySelector('.modal1');
 cardDesigns.addEventListener('click', function() {
@@ -116,4 +116,12 @@ designs10.addEventListener('click', function() {
     else {
         card.classList.remove('designs10')
     }
+})
+let headBtn = document.querySelector('.head__btn');
+headBtn.addEventListener('click', function() {
+    window.location.href='../Form/form.html'
+})
+let btn = document.querySelector('.btn');
+btn.addEventListener('click', function() {
+    window.location.href='../Form/form.html'
 })

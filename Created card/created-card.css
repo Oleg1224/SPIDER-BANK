@@ -286,3 +286,121 @@ overflow-x: hidden;
     padding: 15px;
     border-radius: 50%;
 }
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) { ... }
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {
+        .head__nav {
+            display: none;
+        }
+        .head {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+        .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10,
+        .card11 {
+            height: none;
+        }
+    }
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) { ... }
+
+    @media (max-width: 670px) {
+        .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10,
+        .card11 {
+            max-width: 470px;
+            background-position: center;
+            height: 300px;
+            padding-bottom: 20px;
+        }
+        .block2__card-text {
+            font-size: 43px;
+            text-shadow: 0 0 3px black;
+        }
+        .block2__card-text2 {
+            margin-left: 20px;
+        }
+        .block2__card-text1 {
+            font-size: 43px;
+            margin-left: 220px;
+            text-shadow: 0 0 3px black;
+        }
+    }
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) {
+        .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10,
+        .card11 {
+            max-width: 450px;
+            height: 280px;
+        }
+        .block2__card-text {
+            font-size: 38px;
+            text-shadow: 0 0 3px black;
+        }
+        .block2__card-text1 {
+            font-size: 38px;
+            margin-left: 200px;
+            text-shadow: 0 0 3px black;
+        }
+        .block2__card-img, .block2__card-img2 {
+            width: 70px;
+        }
+        .block2__card-img3, .block2__card-img4 {
+            width: 50px;
+        }
+    }
+
+    @media (max-width: 470px) {
+        .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10,
+        .card11 {
+            max-width: 380px;
+            height: 220px;
+            padding-bottom: 40px;
+        }
+        .block2__card-text {
+            font-size: 36px;
+            text-shadow: 0 0 3px black;
+        }
+        .block2__card-text1 {
+            font-size: 36px;
+            margin-left: 200px;
+            text-shadow: 0 0 3px black;
+        }
+        .block2__card-img, .block2__card-img2 {
+            width: 60px;
+        }
+        .block2__card-img3, .block2__card-img4 {
+            width: 45px;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10,
+        .card11 {
+            max-width: 320px;
+            height: 200px;
+            padding-bottom: 40px;
+        }
+        .block2__card-text {
+            font-size: 30px;
+            text-shadow: 0 0 3px black;
+        }
+        .block2__card-text1 {
+            font-size: 30px;
+            margin-left: 200px;
+            text-shadow: 0 0 3px black;
+        }
+        .block2__card-text2 {
+            font-size: 25px;
+        }
+        .block2__card-img, .block2__card-img2 {
+            width: 60px;
+        }
+        .block2__card-img3, .block2__card-img4 {
+            width: 45px;
+        }
+    }

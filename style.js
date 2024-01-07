@@ -125,3 +125,14 @@ let btn = document.querySelector('.btn');
 btn.addEventListener('click', function() {
     window.location.href='../Form/form.html'
 })
+
+let modalImg = document.querySelector('.modal-img');
+let modal = document.querySelector('.modal')
+modalImg.addEventListener('click', function() {
+    if (modal.className === 'modal') {
+        modal.classList.add('new')
+    }
+    else {
+        modal.classList.remove('new')
+    }
+})

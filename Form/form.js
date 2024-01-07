@@ -125,7 +125,9 @@ formBtn.addEventListener('click', function() {
         formLable.style.color = 'red'
         checkInput.style.color = 'red'
     }
-    else if (true) {
+    else {
+        let nameInputValue = nameInput.value
+        sessionStorage.setItem('nameInputValue', nameInputValue)
         window.location.href='../Created card/created-card.html'
     }
 })

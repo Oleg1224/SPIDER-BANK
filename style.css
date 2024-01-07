@@ -39,10 +39,10 @@ overflow-x: hidden;
     /* overflow-x: hidden; */
     transition: 0.5s;
 }
-/* .head__bgraund.new {
+.head__bgraund.new {
     position: fixed;
     z-index: 3;
-} */
+}
 .head {
     max-width: 1120px;
     margin: 0 auto;
@@ -120,8 +120,10 @@ overflow-x: hidden;
 }
 .main__block2 {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
+    padding-bottom: 150px;
     background-image: url(./img/marvels-spider-man-miles-morales-3840x2158-3110.jpg);
+    background-attachment: fixed;
     background-size: cover;
     margin: 0 auto;
     display: flex;
@@ -131,7 +133,7 @@ overflow-x: hidden;
 .main__block2-card {
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
     background-image: url(./img/video_game-marvel_s_spider_man_2-miles_morales-spider_man-1042590.jpeg);
     background-size: cover;
@@ -144,7 +146,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs2 {
@@ -153,7 +155,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs3 {
@@ -161,7 +163,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs4 {
@@ -169,7 +171,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs5 {
@@ -177,7 +179,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs6 {
@@ -185,7 +187,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs7 {
@@ -193,7 +195,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs8 {
@@ -201,7 +203,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs9 {
@@ -209,7 +211,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .main__block2-card.designs10 {
@@ -217,7 +219,7 @@ overflow-x: hidden;
     background-size: cover;
     width: 600px;
     border: 3px solid #000;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 20px;
 }
 .block2-cardinside {
@@ -334,7 +336,9 @@ overflow-x: hidden;
     width: 100%;
     /* height: 100vh; */
     background-image: url(./img/pexels-photo-326311.jpeg);
+    background-attachment: fixed;
     background-size: cover;
+    padding-top: 30px;
 }
 .main__block3 {
 }
@@ -348,48 +352,35 @@ overflow-x: hidden;
 }
 .block3 {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    /* gap: 10px;
+    justify-content: space-around; */
 }
-.company-ATB {
-    width: 200px;
-    height: 200px;
-    background-image: url(./img/atb_logo_akciya.png);
-    background-size: cover;
+.ATB {
+    /* max-width: 250px; */
+    width: 30%;
+    /* object-fit: cover; */
 }
-.company-POCT {
-    width: 500px;
-    height: 250px;
-    background-image: url(./img/logo.png);
-    background-size: cover;
-    background-position: center;
+.Silpo {
+    /* max-width: 300px; */
+    width: 35%;
 }
-.company-Cilpo {
-    width: 250px;
-    height: 200px;
-    background-image: url(./img/silpo_fb_share.png);
-    background-size: cover;
+.Avrora {
+    /* width: 250px; */
+    width: 30%;
 }
-.company-Avrora {
-    width: 200px;
-    height: 200px;
-    background-image: url(./img/unnamed.png);
-    background-size: cover;
+.Chrome {
+    width: 35%;
 }
-.company-Posad {
-    width: 530px;
-    height: 260px;
-    background-image: url(./img/c1be37d333e178488a86d1c5b27816c8.png);
-    background-size: cover;
+.Apple {
+    width: 32%;
 }
-.company-Ps {
-    width: 500px;
-    height: 250px;
-    background-image: url(./img/ps.png);
-    background-size: cover;
-    background-position: center;
+.Microsoft {
+    width: 33%;
 }
+
 /* Стилі для великих екранів (дисплей максимум 1199рх) */
 @media (max-width: 1199px) { ... }
 
@@ -408,6 +399,13 @@ overflow-x: hidden;
             flex-direction: column-reverse;
             align-items: center;
             /* gap: 0; */
+        }
+        .main__block2 {
+            padding-bottom: 130px;
+            padding-top: 50px;
+        }
+        .main__block2-card {
+            height: none;
         }
     }
 
@@ -464,5 +462,13 @@ overflow-x: hidden;
         }
         .block2__card-img3, .block2__card-img4 {
             width: 40px;
+        }
+        .block1-text {
+            font-size: 28px;
+        }
+    }
+    @media (max-width: 380px) {
+        .main__block3-title {
+            font-size: 35px;
         }
     }

@@ -70,8 +70,11 @@ overflow-x: hidden;
 .head__btn {
     padding: 20px;
     color: wheat;
-    font-size: 20px;
-    background: linear-gradient(black, rgb(161, 145, 55));
+    /* font-size: 20px; */
+    font-size: 30px;
+    font-weight: 700;
+    /* background: linear-gradient(black, rgb(161, 145, 55)); */
+    background: inherit;
     border-radius: 20px;
     transition: 0.6s;
 }
@@ -225,9 +228,36 @@ overflow-x: hidden;
     width: 600px;
     margin: 0 auto;
     transition: 3s;
+    display: flex;
+    flex-direction: column;
 }
 .main {
     width: 100%;
     background-image: url(../img/marvels-spider-man-2-5k-game-4a-1920x1080.jpg);
     background-size: cover;
+}
+/* .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.Card__button-text {
+    font-weight: 600;
+    font-family: Fredoka;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(green, black);
+    text-align: center;
+}
+.user-name {
+    display: flex;
+    align-items: center;
+}
+.user {
+    background-color: rgb(155, 0, 0);
+    font-weight: 900;
+    border: 3px solid #220691;
+    padding: 15px;
+    border-radius: 50%;
 }

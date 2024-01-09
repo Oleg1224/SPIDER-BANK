@@ -119,11 +119,11 @@ designs10.addEventListener('click', function() {
 })
 let headBtn = document.querySelector('.head__btn');
 headBtn.addEventListener('click', function() {
-    window.location.href='../Form/form.html'
+    window.location.href='./Form/form.html'
 })
 let btn = document.querySelector('.btn');
 btn.addEventListener('click', function() {
-    window.location.href='../Form/form.html'
+    window.location.href='./Form/form.html'
 })
 
 let modalImg = document.querySelector('.modal-img');

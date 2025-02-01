@@ -129,8 +129,9 @@ overflow-y: hidden;
 .modal-name {
     opacity: 0;
     width: 200px;
-    border: 1px solid #ffffff;
-    background: #000000;
+    border: 3px solid #ffffff;
+    /* background: #000000; */
+    background: white;
     color: red;
     position: absolute;
     top: 20px;
@@ -147,6 +148,7 @@ overflow-y: hidden;
     opacity: 0;
     width: 200px;
     border: 1px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -160,7 +162,8 @@ overflow-y: hidden;
 .modal-name3 {
     opacity: 0;
     width: 200px;
-    border: 1px solid #907c7c;
+    border: 3px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -174,7 +177,8 @@ overflow-y: hidden;
 .modal-password {
     opacity: 0;
     width: 200px;
-    border: 1px solid #907c7c;
+    border: 3px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -188,7 +192,8 @@ overflow-y: hidden;
 .modal-password2 {
     opacity: 0;
     width: 200px;
-    border: 1px solid #907c7c;
+    border: 3px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -202,7 +207,8 @@ overflow-y: hidden;
 .modal-email {
     opacity: 0;
     width: 200px;
-    border: 1px solid #907c7c;
+    border: 3px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -216,7 +222,8 @@ overflow-y: hidden;
 .modal-phone {
     opacity: 0;
     width: 200px;
-    border: 1px solid #907c7c;
+    border: 3px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -230,7 +237,8 @@ overflow-y: hidden;
 .modal-phone2 {
     opacity: 0;
     width: 200px;
-    border: 1px solid #907c7c;
+    border: 3px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -244,7 +252,8 @@ overflow-y: hidden;
 .modal-phone3 {
     opacity: 0;
     width: 200px;
-    border: 1px solid #907c7c;
+    border: 3px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -258,7 +267,8 @@ overflow-y: hidden;
 .modal-check {
     opacity: 0;
     width: 200px;
-    border: 1px solid #907c7c;
+    border: 3px solid #907c7c;
+    background: white;
     position: absolute;
     top: 20px;
     transition: 0.7s;
@@ -272,6 +282,7 @@ overflow-y: hidden;
 .name-text {
     font-size: 20px;
     color: rgb(125, 5, 5);
+    font-family: Arial;
     text-align: center;
 }
 /* Стилі для великих екранів (дисплей максимум 1199рх) */
